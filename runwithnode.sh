@@ -2,8 +2,8 @@
 
 rm -r web
 mkdir web
-npm init
+npm init -y
 npm install kotlin --save
 npm install express --save
 ./gradlew assemble
-node web/4-run-with-node
+node web/kotlin-javascript
